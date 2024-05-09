@@ -263,6 +263,28 @@ class Navbar extends HTMLElement {
         `;
         this.innerHTML = /*html*/ `
         ${STYLE}
+        <section style="display: flex;
+        width: 100%;
+        height: 40px;
+        background-color: var(--dark-gray);
+        margin: 0 auto;
+        align-items: center;">
+            <h3 class="header-auth__link" style="display: flex;
+            width: 100%;
+            max-width: 1700px;
+            padding-right: 80px;
+            padding-left: 80px;
+            justify-content: flex-end;
+            align-items: center;
+            font-size: 20px;
+            color: white;
+            cursor: default;">
+                <span class="header-auth__icon icon-right-to-bracket-solid icon">
+                    <img src="assets/icons/fixed_icons/Войти.svg" alt="">
+                </span>
+                <span>Войти</span>
+            </h3>
+        </section>
             <div class="mobile-control__menu-button">
                 <p>Меню</p>
                 <span class="icon burger"></span>
@@ -312,7 +334,7 @@ class Navbar extends HTMLElement {
                     })()}
                     <div class="third-panel__tab more">
                         <p class="third-panel__tab-text">
-                            <span style="width: 100%; text-align: center; position: static;">Весь 21</span>
+                            <span style="width: 100%; text-align: center; position: static;">весь 21</span>
                             <br> журнал <span class="icon reversed" style="padding-left: 5px;"></span></p>
                     </div>
                     <div class="other-tabs">
