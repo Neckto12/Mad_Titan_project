@@ -312,7 +312,7 @@ class Navbar extends HTMLElement {
                     })()}
                     <div class="third-panel__tab more">
                         <p class="third-panel__tab-text">
-                            <span style="width: 100%; text-align: center; position: static;">Все 21</span>
+                            <span style="width: 100%; text-align: center; position: static;">Весь 21</span>
                             <br> журнал <span class="icon reversed" style="padding-left: 5px;"></span></p>
                     </div>
                     <div class="other-tabs">
